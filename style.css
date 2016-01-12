@@ -90,10 +90,6 @@ body {
 	padding: 20px;
 }
 
-.main .container p {
-	font-size: 
-}
-
 .main .container a {
 	color: #123252;
 	text-decoration: none;
@@ -111,6 +107,7 @@ body {
 
 .sub-main .col {
 	border-top: 1px solid #fff;
+	padding-bottom: 15px;
 }
 
 .row:after {
