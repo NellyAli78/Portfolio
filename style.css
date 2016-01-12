@@ -72,28 +72,30 @@ body {
 	width: 100%;
 	background: none;
 	border: none;
-}
-
-.main .container .col {
-	width: 45%;
-	float: left;
-	margin: 20px;
+	margin-bottom: 10px;
 }
 
 .main .container img {
-	width: 430px;
+	width: 100%;
 }
 
-.introText {
-	font-size: 0.8em;
+.main .introText {
+	font-size: 1em;
 	color: #000;
-	padding: 20px;
+	padding: 15px;
+}
+
+.main .mainText {
+	font-size: 0.8em;
+	padding: 15px;
 }
 
 .main .container a {
-	color: #123252;
+	color: #fff;
 	text-decoration: none;
-	font-size: 1.4em;
+	font-size: 1.2em;
+	background: #000;
+	margin: 20px;
 }
 
 .main .container a:hover {
@@ -191,6 +193,12 @@ body {
 		font-size: 2em;
 	}
 
+	.main .container .col {
+		width: 45%;
+		float: left;
+		margin: 20px;
+	}
+
 	.main .container p {
 		font-size: 1.2em;
 		color: #000;
@@ -198,10 +206,12 @@ body {
 	}
 
 	.main .container a {
-		color: #123252;
+		color: #fff;
 		text-decoration: none;
 		font-size: 1.5em;
 		margin: 10px;
+		background: #000;
+		margin: 25px;
 	}
 
 	.footer ul li a {
