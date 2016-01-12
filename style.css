@@ -72,7 +72,7 @@ body {
 	width: 100%;
 	background: none;
 	border: none;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 .main .container img {
@@ -93,9 +93,10 @@ body {
 .main .container a {
 	color: #fff;
 	text-decoration: none;
-	font-size: 1.2em;
+	font-size: 1em;
 	background: #000;
-	margin: 20px;
+	margin: 15px;	
+	padding: 10px;
 }
 
 .main .container a:hover {
@@ -206,12 +207,16 @@ body {
 	}
 
 	.main .container a {
-		color: #fff;
+		color: #a6a6a6;
 		text-decoration: none;
-		font-size: 1.5em;
-		margin: 10px;
+		font-size: 1.4em;
 		background: #000;
 		margin: 25px;
+		padding: 5px;
+	}
+
+	.main .container a:hover {
+		color: #fff;
 	}
 
 	.footer ul li a {
