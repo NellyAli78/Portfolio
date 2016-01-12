@@ -54,6 +54,10 @@ body {
 
 }
 
+.nav ul {
+	padding-left: 0;
+}
+
 .nav ul li {
 	display: inline-block;
 }
@@ -64,7 +68,6 @@ body {
 	color: #a6a6a6;
 	font-size: 3em;
 	padding: 20px;
-	margin: 30px;
 }
 
 .nav ul li a:hover {
@@ -153,6 +156,7 @@ body {
 
 .footer ul {
 	margin: 0px;
+	padding-left: 0;
 }
 
 .footer ul li {
@@ -165,7 +169,6 @@ body {
 	color: #a6a6a6;
 	font-size: 3em;
 	padding: 20px;
-    margin: 30px;
 }
 
 .footer ul li a:hover {
