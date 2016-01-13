@@ -138,13 +138,13 @@ body {
 }
 
 .sub-main p {
-	font-size: 1em;
+	font-size: 0.8em;
 	color: #fff;
 }
 
 .sub-main .col a {
 	text-decoration: none;
-	font-size: 1em;
+	font-size: 0.8em;
 	font-weight: bold;
 	color: #a6a6a6;
 }
@@ -213,6 +213,10 @@ body {
 	.sub-main .col a:hover {
 		color: #fff;
 	}
+
+	.footer ul {
+		padding-left: 25px;
+	}
 }
 
 @media screen and (min-device-width: 1200px) {
@@ -233,6 +237,10 @@ body {
 
 	.sub-main .col img {
 		width: 192px;
+	}
+
+	.sub-main .col a {
+		font-size: 1.2em;
 	}
 
 	.nav ul {
@@ -262,10 +270,10 @@ body {
 		margin: 10px;
 	}
 
-	.main .container a {
+	/*.main .container a {
 		color: #a6a6a6;
 		text-decoration: none;
-		font-size: 1.4em;
+		font-size: 1.8em;
 		background: #000;
 		margin: 25px;
 		padding: 5px;
@@ -273,14 +281,13 @@ body {
 
 	.main .container a:hover {
 		color: #fff;
-	}
+	}*/
 
 	.footer ul li a {
 		list-style-type: none;
 		text-decoration: none;
 		color: #a6a6a6;
 		font-size: 1.3em;
-		margin: 20px;
 	}
 
 	.footer ul li a:hover {
