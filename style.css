@@ -51,7 +51,6 @@ body {
 	background: #000;
 	border-top: 1px solid #fff;
 	padding: 5px;
-
 }
 
 .nav ul {
@@ -183,7 +182,11 @@ body {
 	color: #fff;
 }
 
-@media screen and (min-device-width: 481px) {
+@media screen and (min-device-width: 768px) {
+
+}
+
+@media screen and (min-device-width: 1200px) {
 	.wrapper {
 		width: 1000px;
 	}    
