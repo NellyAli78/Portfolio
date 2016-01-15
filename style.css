@@ -110,14 +110,21 @@ body {
           color: #fff; }
 
 @media screen and (min-device-width: 768px) {
+  .headingStyle1 {
+    font-size: 3em; }
+
   .headingStyle2 {
-    font-size: 2em;
+    font-size: 2.5em;
     font-family: sans-serif;
-    margin: 5px; }
+    margin: 5px;
+    color: #fff; }
+
+  .introText {
+    font-size: 2em; }
 
   .main .container p {
-    font-size: 1.2em;
-    font-family: fantasy; }
+    font-size: 1.5em;
+    font-family: sans-serif; }
 
   .sub-main .col {
     width: 45%;
@@ -125,22 +132,21 @@ body {
     margin: 20px;
     padding-bottom: 0px; }
     .sub-main .col a {
-      font-size: 1.8em; }
+      font-size: 2em; }
       .sub-main .col a:hover {
         color: #fff; }
   .sub-main p {
     font-size: 1.4em;
     font-family: sans-serif; }
 
-  .footer _
-  ul {
+  .footer ul {
     padding-left: 25px; } }
 @media screen and (min-device-width: 1200px) {
   .wrapper {
     width: 1000px; }
 
   .main .container p {
-    font-size: 1em;
+    font-size: 1.5em;
     color: #000; }
 
   .sub-main .col {

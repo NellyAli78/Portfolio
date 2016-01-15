@@ -143,17 +143,26 @@ body {
 	
 @media screen and (min-device-width: 768px) {
 
+	.headingStyle1 {
+		font-size: 3em;
+	}
+
 	.headingStyle2 {
-		font-size: 2em;
+		font-size: 2.5em;
 		font-family: sans-serif;
 		margin: 5px;
+		color: #fff;
+	}
+
+	.introText {
+		font-size: 2em;
 	}
 
 	.main {
 		.container {
 			p {
-				font-size: 1.2em;
-				font-family: fantasy;
+				font-size: 1.5em;
+				font-family: sans-serif;
 			}
 		}
 	}
@@ -165,7 +174,7 @@ body {
 			margin: 20px;
 			padding-bottom: 0px;
 			a {
-				font-size: 1.8em;
+				font-size: 2em;
 				&:hover {
 					color: #fff;
 				}
@@ -177,7 +186,7 @@ body {
 		}
 	}
 
-	.footer {_
+	.footer {
 		ul {
 			padding-left: 25px;
 		}
@@ -192,7 +201,7 @@ body {
 	.main {
 		.container {
 			p {
-				font-size: 1em;
+				font-size: 1.5em;
 				color: #000;
 			}
 		}
